@@ -10,7 +10,7 @@
     任何應用程式想要和 SQL Server 溝通，都無法避免撰寫 TSQL，
     所以各種效能調校方法中，我們認為查詢調校是最省成本、最快能感受到效果的方法 (如下圖)。
     
-    ![TSQL](https://yijinwu1.github.io/SQL/images/TSQL1.png)
+    ![](https://yijinwu1.github.io/SQL/images/TSQL1.png)
 	
 *   SQL Server 關聯式引擎
 
@@ -19,10 +19,10 @@
     當一句 TSQL 送給 SQL Server 時，我們須了解關聯式引擎是如何工作的，
     因為每一句 TSQL 都必須透過關聯式引擎分析處理，最後才會透過儲存引擎執行並返回使用者所需的資料結果集，
     理解關聯式引擎不僅可以幫我們預先避開效能陷阱，同時也有助於我們減少查詢調校和除錯時間，下面我將說明幾個處理關鍵步驟。
-
-    ![TSQL](https://yijinwu1.github.io/SQL/images/TSQL3.png)
-	
-    ![TSQL](https://yijinwu1.github.io/SQL/images/TSQL4.png)
+    
+    ![](https://yijinwu1.github.io/SQL/images/TSQL2.png)
+    
+    ![](https://yijinwu1.github.io/SQL/images/TSQL3.png)
 	
     * 分析和綁定
     
