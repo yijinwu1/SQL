@@ -1,6 +1,7 @@
 <h1>SSMS 開啟路徑</h1>
 
 SSMS安裝完成後，於「開始」找不到開啟SSMS。
+
 ![](https://yijinwu1.github.io/SQL/images/open2.PNG)
     
 由「搜尋」輸入以下路徑
