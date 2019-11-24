@@ -1,9 +1,0 @@
-<h1>SSMS 開啟路徑</h1>
-
-SSMS安裝完成後，於「開始」找不到開啟SSMS。
-
-![](https://yijinwu1.github.io/SQL/images/open2.PNG)
-    
-由「搜尋」輸入以下路徑
-C:\Windows\SysWOW64\mmc.exe /32 C:\Windows\SysWOW64\SQLServerManager14.msc
-![](https://yijinwu1.github.io/SQL/images/open3.PNG)
